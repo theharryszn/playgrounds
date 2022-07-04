@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0102">
+    <steps>
+        <step type="context">
+            <blocks>
+                <block type="title"><title id="51f-dB-mj9">Write Your Own Function</title></block>
+                <block type="text">
+                    <text id="fXw-BL-cN1">Now that you know how to write functions in a <a href="glossary://shared%20file">shared file</a>, try writing your own.</text>
+                </block>
+                <block type="image" source="crystalCluster" height="0.65">
+                    <description id="zR5-Iq-m1U">Picture of serveral colorful crystals in a cluster.</description>
+                </block>
+                <block type="text">
+                    <text id="R31-fD-V16">The next few steps will help you integrate the things you’ve learned on the previous pages, such as using a handler, playing sounds, and calling methods.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="NCn-7q-yeK">Get started!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="code" name="startingYourFunction">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="startingYourFunction"/>
+                <block type="title" subtype="badge">
+                    <title id="dfm-qJ-CJG">Starting Your Function</title>
+                    <text id="G1I-Mv-XIx">Writing your own functions takes practice. Follow the steps below to get started.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="A2k-WX-aee">1. Write a new <a href="glossary://function%20definition">function definition</a>, in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file, that takes two parameters — an image and a sound — and returns a graphic.</text>
+                </block>
+                <groupblock disclosed="false">
+                    <image character="hopper"/>
+                    <title id="3yF-2r-W1s">Need Help?</title>
+                    <block type="text">
+                        <text id="Lhi-65-HXb">Write your code in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file. Name your function anything you want.</text>
+                    </block>
+                    <block type="code">
+                        <key>public func</key> &lt;#function name#&gt; (image: <type>Image</type>, sound: <type>SonicSound</type>) -&gt; <type>Graphic</type> {
+                        
+                        }
+                    </block>
+                    <block type="text"><text id="Lhi-65-HHH">The little red dot is a <a href="glossary://compiler%20error">compiler error</a>. It’s warning you to return a <cv>Graphic</cv>. Let’s do that in the next step.</text></block>
+                </groupblock>
+                <block type="text">
+                    <text id="ybM-wU-u1G">2. In the body of your function, create a <cv>Graphic</cv>. Then return the <cv>Graphic</cv> you created using the keyword <cv>return</cv>.</text>
+                </block>
+                <groupblock disclosed="false">
+                    <image character="hopper"/>
+                    <title id="6SD-pA-xfr">Need Help?</title>
+                    <block type="text"><text id="Vup-ZM-LzW">Write your code between the opening and closing curly braces.</text></block>
+                    <block type="code">
+                        <key>let</key> graphic = Graphic(image: image)
+                        
+                        <key>return</key> graphic
+                    </block>
+                </groupblock>
+                <block type="text">
+                    <text id="mGx-Ve-Ke3">3.  Call your function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file. Remember, your function returns a <cv>Graphic</cv>. To store that graphic, create a new variable, then place it in the scene.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="S1r-kA-vcB">Run your code to see your new graphic in the scene.</text>
+                </block>
+            </blocks>
+        </step>
+        
+        
+        <message name="startingYourFunction-success" sender="byte">
+              <blocks>
+                  <block type="text">
+                      <text id="YBC-YY-QHe"><b>Well done!</b></text>
+                  </block>
+                    <block type="text">
+                        <text id="bIJ-u9-YN5">That was the toughest coding challenge yet, and you did it! Now that you have all the setup code complete, keep going to make it interactive.</text>
+                    </block>
+                    <block type="buttons" alignment="trailing">
+                        <button href="@nextStep" symbol="arrow.right.circle.fill">
+                            <text id="Di4-rz-QDF">Next</text>
+                        </button>
+                    </block>
+              </blocks>
+          </message>
+        
+        <message name="startingYourFunction-hint1" sender="hopper">
+             <blocks>
+                 <block type="text">
+                     <text id="cfJ-RG-AP6">First, add a new function definition to <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a>.
+                     
+                     An example might look like this:</text>
+                 </block>
+                 <block type="code">
+                     <key>public func</key> myFunction(image: <type>Image</type>, sound: <type>SonicSound</type>) -&gt; <type>Graphic</type> {
+                     
+                         <key>let</key> graphic = Graphic(image: image)
+                         
+                         
+                         <key>return</key> graphic
+                     }
+                 </block>
+             </blocks>
+         </message>
+        
+        <message name="startingYourFunction-hint2" sender="hopper">
+             <blocks>
+                 <block type="text">
+                     <text id="5rh-i7-KX3">Once you’ve defined your function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file, call your function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file. Your code should look like this:</text>
+                 </block>
+                 <block type="text">
+                     <text id="599-77-KX3">
+                     <cv><key>var</key> mushroom = myFunction(image: 🍄, sound: .foundIt)
+                     
+                     scene.place(mushroom, at: Point(x: <num>-40</num>, y: <num>-200</num>))</cv>
+                     </text>
+                 </block>
+             </blocks>
+         </message>
+               
+        
+        
+        
+        
+        <step type="code" name="touchMoved">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="touchMoved"/>
+                <block type="title" subtype="badge">
+                    <title id="zc5-Ku-Jt6">Add a Touch Moved Handler</title>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="kXk-n2-Vjj">Make your graphic to do something when you touch and drag across it. Write your code above the <a href="glossary://return%20type">return</a> statement in your function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file.</text></block>
+                <block type="code">
+                    graphic.setOnTouchMovedHandler { touch <key>in</key>
+                    
+                    }
+                </block>
+                <block type="text">
+                    <text id="4IC-ec-r6P">Inside your handler, change the tint color of your graphic using the position of your touch along the x axis, <cv>touch.position.x</cv>.</text>
+                </block>
+                <block type="code">
+                    <key>let</key> color = Color(hue: fabs(touch.position.x) / graphic.size.width, saturation: <num>0.5</num>, brightness: <num>1.0</num>, alpha: <num>0.6</num>)
+                    
+                    graphic.setTintColor(color, blend: <num>1.0</num>)
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text"><text id="Jyp-8W-iii">Run your code, then touch and drag over the graphic to see it change color.</text></block>
+                <groupblock disclosed="false">
+                    <image character="expert"/>
+                    <title id="sSS-ra-ffE">What Does <cv>touch in</cv> Mean?</title>
+                     <block type="text">
+                         <text id="gDP-Qe-wxr">A touch moved handler takes the location of your touch as an argument. You can then use this value (your touch position) in your code.</text>
+                     </block>
+                     <block type="text">
+                         <text id="PPP-Qe-wxr">The <cv>in</cv> keyword is part of the closure syntax. It separates the arguments, such as <cv>touch</cv>, from the body of the closure.</text>
+                     </block>
+                </groupblock>
+            </blocks>
+        </step>
+        
+        
+        
+        <message name="touchMoved-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="cFp-xK-Zx5">♥️🧡💛💚💙💜</text>
+                </block>
+                  <block type="text">
+                      <text id="Rx3-qx-A3L">Touching and dragging around the graphic looks pretty cool, hu?!</text>
+                  </block>
+                  <block type="text">
+                      <text id="nQp-v3-vCC">Next, add a touch handler.</text>
+                  </block>
+                  <block type="buttons" alignment="trailing">
+                      <button href="@nextStep" symbol="arrow.right.circle.fill">
+                          <text id="fG3-eu-QV9">Next</text>
+                      </button>
+                  </block>
+            </blocks>
+        </message>
+        
+        <message name="touchMoved-hint1" sender="hopper">
+              <blocks>
+                  <block type="text">
+                      <text id="bjc-8B-wNM">Start by dragging over the code for the touch moved handler.</text>
+                  </block>
+                  <block type="code">
+                      graphic.setOnTouchMovedHandler { touch <key>in</key>
+                      
+                      }
+                  </block>
+              </blocks>
+          </message>
+        <message name="touchMoved-hint2" sender="hopper">
+             <blocks>
+                 <block type="text">
+                     <text id="K9f-Ya-cXP">Great start, now add the code to make the graphic change color based on your touch position.</text>
+                 </block>
+                 <block type="code"><key>let</key> color = Color(hue: fabs(touch.position.x) / graphic.size.width, saturation: <num>0.5</num>, brightness: <num>1.0</num>, alpha: <num>0.6</num>)
+                     
+                     graphic.setTintColor(color, blend: <num>1.0</num>)
+                 </block>
+             </blocks>
+         </message>
+         
+        
+        <step type="experiment" name="touchHandler">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="touchHandler"/>
+                <block type="title" subtype="badge">
+                    <title id="RHX-vq-GTA">Add a Touch Handler</title>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="kXk-n2-VCJ">In addition to your touch moved handler, you can add a touch handler that responds to a single touch. Write your code above the <a href="glossary://return%20type">return</a> statement in your function.</text></block>
+                <block type="code">
+                    graphic.setOnTouchHandler {
+                    
+                    }
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <block type="text">
+                    <text id="Jyp-8W-VXD">Add a sound inside your handler.</text>
+                </block>
+                <groupblock subtype="task" name="playSound" disclosed="false">
+                    <title id="tWb-Jk-8cY">Play a Sound</title>
+                    <image source="play-a-sound" backgroundcolor="#2DB2D2"/>
+                    <block type="code">
+                        playSound(sound, volume: <num>80</num>)
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="playInstrument" disclosed="false">
+                    <title id="2gY-9y-tn3">Play Instrument</title>
+                    <image source="play-instrument" backgroundcolor="#1D9F8D"/>
+                    <block type="code">
+                        playInstrument(.bassSynth, note: <num>80</num>, volume: <num>80</num>)
+                    </block>
+                </groupblock>
+                <groupblock subtype="task" name="playMusic" disclosed="false">
+                    <title id="GSL-9i-4Tq">Play Music</title>
+                    <image source="play-music" backgroundcolor="#00918C"/>
+                    <block type="code">
+                        playMusic(.cave, volume: <num>80</num>)
+                    </block>
+                </groupblock>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="yj6-HT-4H3">Run your code and touch your graphic to hear the sound or music you specified.</text>
+                </block>
+            </blocks>
+        </step>
+        
+        <message name="touchHandler-hint2" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="VpY-sa-7qI">Make sure to play a sound, instrument, or music inside your touch handler. For instance, you could play a sound like this:</text>
+                </block>
+                <block type="code">playSound(sound, volume: <num>80</num>)</block>
+            </blocks>
+        </message>
+        
+        <message name="touchHandler-hint1" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="wC6-n7-v1G">First, add a touch handler to your graphic.</text>
+                </block>
+                <block type="code">
+                    graphic.setOnTouchHandler { 
+                    
+                    }
+                </block>
+            </blocks>
+        </message>
+        
+        
+        <message name="touchHandler-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="5HC-fB-YqP">🥳 You are really getting the hang of this. Keep exploring, or keep going to try making a loop.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="LjN-yq-6bW">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+        
+        
+        <step type="code" name="loop">
+            <blocks>
+                <assessment type="programmatic" name="loop"/>
+                <block type="title">
+                    <title id="C5s-iJ-nLk">Looping Sounds</title>
+                    <text id="auJ-L6-Kfx">Instead of playing a sound once, use the touch handler to toggle a loop on and off.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="Nx6-ss-nzJ">Create a new loop by passing in a sound. Inside your function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a>, write your code <i>above</i> the touch handler.</text>
+                </block>
+                <block type="code"><key>let</key> loop = Loop(sound: sound)</block>
+                <block type="text">
+                    <text id="SAG-ZR-7TD">Toggle the loop on and off when you touch the graphic. Write your code <i>inside</i> the touch handler. You may also want to delete any other sounds or music calls inside your touch handler.</text>
+                </block>
+                <block type="code">loop.toggle()</block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="wVe-jG-2IU">Run your code and touch the graphic. The sound should repeat until you touch the graphic again to turn off the sound.</text>
+                </block>
+            </blocks>
+        </step>
+        
+        
+        <message name="loop-hint" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="eB6-F7-Sm2">Inside your touch handler, create a new loop and toggle it.
+                       
+                       Your code should look something like this:</text>
+               </block>
+               <block type="text"><text id="cXj-IY-bzT"><code>
+                   <key>public func</key> loopingMushroom(image: <type>Image</type>, sound: <type>SonicSound</type>) -&gt; <type>Graphic</type> {
+                       <key>let</key> graphic = Graphic(image: image)
+                       
+                       <key>let</key> loop = Loop(sound: sound)
+                       
+                       graphic.setOnTouchHandler {
+                           loop.toggle()
+                       }
+                   
+                       <key>return</key> graphic
+                   }</code></text>
+               </block>
+           </blocks>
+       </message>
+        <message name="loop-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="bug-hC-j8r">Nice work! Nice work! Nice work! Nice work! Nice work! Nice work! Nice work! Nice work! Nice work! Nice work!</text>
+                </block>
+                
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="vqE-su-ahd">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="XXC-eS-iKQ">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="LIU-Gx-kUT">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="HNC-mI-JFK">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="8Ax-VJ-FBt">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="127-i2-cF9">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="wLY-92-NHx">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="hKP-xs-99z">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="WND-Yz-qfb">Next</text>
+                    </button>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="Y5b-Mm-HmT">Next</text>
+                    </button>
+                </block>
+                <block type="text">
+                    <text id="loo-oo-oop">😂 Looks like everything is stuck in a loop!</text>
+                </block>
+            </blocks>
+        </message>
+      
+        <step type="experiment" name="moreFlair">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="moreFlair"/>
+                <block type="title" subtype="badge">
+                    <title id="Wiu-Eh-H9L">Add Visual Flair</title>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <block type="text">
+                    <text id="qNu-nr-Z2n">Call a method inside your touch handler. Mix, match, and edit the suggestions below:</text></block>
+                <groupblock subtype="task" name="flairGlow" disclosed="false">
+                    <title id="Jms-eF-KLC">Glow</title>
+                    <image source="glow" backgroundcolor="#54193C"/>
+                    <block type="code">graphic.glow()</block>
+                </groupblock>
+                <groupblock subtype="task" name="flairShake" disclosed="false">
+                    <title id="qui-9d-tym">Shake</title>
+                    <image source="shake" backgroundcolor="#2D3458"/>
+                    <block type="code">graphic.shake(duration: <num>0.5</num>)</block>
+                </groupblock>
+                <groupblock subtype="task" name="flairScale" disclosed="false">
+                    <title id="AhI-w9-m65">Scale</title>
+                    <image source="scale" backgroundcolor="#502C5B"/>
+                    <block type="code">graphic.scale = <num>2.0</num></block>
+                </groupblock>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="yyy-HT-4H3">Run your code and touch your graphic to see it perform the action you specified.</text>
+                </block>
+            </blocks>
+        </step>
+
+        <message name="moreFlair-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="I92-Av-J1S">✅ Function
+                        ✅ Touch moved handler
+                        ✅ Touch handler
+                        ✅ Loop
+                        ✅ Animations</text>
+                </block>
+                <block type="text">
+                    <text id="upq-IS-Aqm">You did it! You completed a function with a touch moved handler, a touch handler, a loop, and animations.</text>
+                </block>
+                <block type="text">
+                    <text id="p8y-Sj-36S">Next, try calling pre-built functions.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@next" symbol="arrow.right.circle.fill">
+                        <text id="LzE-ZA-tD2">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+
+        <message name="moreFlair-hint" sender="hopper">
+               <blocks>
+                   <block type="text">
+                       <text id="I9k-kp-t1R">Try adding at least one animation to your function. If you can’t think of one, this is a good standby:</text>
+                   </block>
+                   <block type="code">graphic.scale = <num>2.0</num></block>
+               </blocks>
+           </message>
+      
+        
+</steps>
+</trail>
+

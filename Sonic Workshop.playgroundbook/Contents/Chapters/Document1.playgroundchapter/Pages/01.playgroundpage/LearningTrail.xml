@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0101">
+    <steps>
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="aCh-na-h6v">Parameters and Return Types</title>
+                </block>
+                <block type="text">
+                    <text id="Ir3-TT-Lhk">Functions help you perform the same task over and over again very quickly.</text>
+                </block>
+                <block type="image" source="turtleWithCrystals" width="1.0" aspect="500:320">
+                    <description id="2Zc-Qr-abL">Image of a turtle swimming, with lots of crystals all over its back and head. There are rocks in the foreground, with exotic birds resting on the rocks to the left, and an open oyster with a pearl inside at center.</description>
+                </block>
+                <block type="text">
+                    <text id="Sbp-Gu-yvn">Using <a href="glossary://parameter">parameters</a> you can customize what happens when you call a function, and using a <a href="glossary://return%20type">return type</a> gives a value back when you call the function.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="LiJ-Le-vpq">Get started!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="find">
+            <blocks>
+                <block type="title">
+                    <title id="hZs-Ur-2qF">Function Breakdown</title>
+                </block>
+                <block type="carrot" subtype="find"/>
+                <block type="text">
+                    <text id="2SK-K8-xpZ">Find the <cv>createCrystal</cv> function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file.
+                    </text>
+                </block>
+                <block type="text">
+                    <text id="2SK-K8-ooo">Touch each hotspot below to discover more about the function. If you close the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file, or want to open it from another page, you can find it by opening <a href="glossary://MyFiles">MyFiles</a>.
+                    </text>
+                </block>
+                <block type="image" source="funcParamsReturn" width="1.0" aspect="888:443">
+                    <description id="Asp-A9-8iF">Image of the same `createCrystal` function present in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file.</description>
+                    <interactive name="funcParamsReturn">
+                        <hotspot position="0.08, 0.00" action="popupText"><text id="N7s-d8-jfR"><cv>public</cv> allows this function to be used anywhere in your Playground.</text></hotspot>
+                        <hotspot position="0.57, 0.36" action="popupText"><text id="xEG-P8-TE4">The arrow indicates that what comes next is the return type.</text></hotspot>
+                        <hotspot position="0.68, 0.00" action="popupText"><text id="jGA-wq-Rq2">
+                            <cv>image</cv> and <cv>sound</cv> are the two parameters your function takes.
+                            
+                            These parameters make it possible for you to customize the look and sound of your graphics.</text></hotspot>
+                        <hotspot position="0.08, 0.50" action="popupText"><text id="TFi-jc-Vkv">This creates a graphic, which your function returns.</text></hotspot>
+                        <hotspot position="0.08, 0.75" action="popupText"><text id="CM5-g6-yjs">This tells the function to give back the created graphic when the function is called.</text></hotspot>
+                    </interactive>
+                </block>
+                <groupblock disclosed="false">
+                    <image character="expert"/>
+                    <title id="Ygb-EK-2EV">Why Code in a Shared File?</title>
+                    <block type="text">
+                        <text id="wEf-EP-YVe">Writing your code in a <a href="glossary://shared%20file">shared file</a> allows you to share your code across all of the pages in your Playground. Now you can write code once and use it everywhere!</text>
+                    </block>
+                </groupblock>
+                <block type="text">
+                    <text id="yYW-mV-qzv">Next, call your function.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="RDa-i5-EBN">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="code" name="createCrystal">
+            <blocks>
+                <assessment type="programmatic" name="createCrystal"/>
+                <block type="title">
+                    <title id="2aW-Jz-3ks">Create Crystal Function</title>
+                    <text id="IPj-AQ-K9V">The <cv>createCrystal</cv> function is going to return a graphic. This means you can call <cv>createCrystal</cv> and store the returned value as a <a href="glossary://variable">variable</a>.</text>
+                    <image source="graphicCrystal">
+                            <description id="3WI-QQ-59v">The outline of a crystal.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="d8V-r7-yIs">Call the <cv>createCrystal</cv> function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file and place your graphic in the scene.</text>
+                </block>
+                <block type="text">
+                    <text id="wTV-vT-QRI"><a href="playgrounds://currentdocument/currentpage/editor">Open <icon name="main"/> main</a></text>
+                </block>
+                <block type="text">
+                    <text id="Uhm-NG-8vf">Write, drag and drop, or copy and paste the following code below this comment:
+                    <cmt id="NDN-G8-veT">// Call your function.</cmt></text>
+                </block>
+                <block type="code">
+                    <key>let</key> crystal = createCrystal(image: <literal>#imageLiteral(resourceName: "darkCrystal1Blue")</literal>, sound: .handDrums)
+                    
+                    scene.place(crystal, at: Point(x: <num>0</num>, y: <num>0</num>))
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text"><text id="mEe-kI-4vX">Run your code. You should see your crystal in the scene.</text></block>
+               
+            </blocks>
+        </step>
+        
+        <message name="createCrystal-success" sender="byte">
+           <blocks>
+               <block type="text">
+                   <text id="US7-pr-nzJ"><b>Wasn’t that fast!?</b></text>
+               </block>
+                 <block type="text">
+                     <text id="Gbs-y1-7M5">By creating a function you can reuse, you can make lots of different crystals, mushrooms, or graphic of your choice with whatever sound you want.</text>
+                 </block>
+                 <block type="text">
+                     <text id="jFt-4g-7ij">Keep placing new items in the scene, or try applying your touch handler skills to your function.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@nextStep" symbol="arrow.right.circle.fill">
+                         <text id="q6p-mc-jxk">Next</text>
+                     </button>
+                 </block>
+           </blocks>
+       </message>
+        <message name="createCrystal-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                     <text id="xKj-h3-Zmh">Add this code to the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file and run your code to see your new crystal in the scene.</text>
+                 </block>
+                 <block type="code">
+                    <key>let</key> crystal = createCrystal(image: <literal>#imageLiteral(resourceName: "darkCrystal1Blue")</literal>, sound: .handDrums)
+                    
+                    scene.place(crystal, at: Point(x: <num>0</num>, y: <num>0</num>))
+                </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        <step type="code" name="makeSomeNoise">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="makeSomeNoise"/>
+                <block type="title" subtype="badge">
+                    <title id="TqZ-Hv-UWY">Make Some Noise</title>
+                    <text id="HQb-q2-JZZ">Use a closure to make your graphic play a sound when touched.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="IxY-6s-v9S">
+                        Open the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift"><icon name="module"/> Crystals</a> file and write your code below this comment:
+                        <cmt id="hfP-CH-HJk">// Add a touch handler.</cmt>
+                    </text>
+                </block>
+                <groupblock disclosed="false">
+                    <title id="prt-alksdjfaldksjf">Need Help?</title>
+                    <image character="hopper"/>
+                    <block type="text">
+                        <text id="j9F-4Q-TLj">Start by using the closure, <cv>graphic.setOnTouchHandler { }</cv></text>
+                    </block>
+                    <block type="text">
+                        <text id="LtB-UZ-YPL">Inside, call the <cv>playSound</cv> function and any methods you want on your graphic, like <cv>graphic.glow()</cv>.</text>
+                    </block>
+                </groupblock>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="QNb-sf-QTy">Run your code and touch your crystal. You should hear it play a sound and see it do what you specified in the handler.</text>
+                </block>
+                
+            </blocks>
+        </step>
+        
+        
+        <message name="makeSomeNoise-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="Z9d-6H-Upq">Your touch handler in the <cv>createCrystal</cv> function should look like this:</text>
+                </block>
+                <block type="text"><code><cmt id="YGx-QH-DI8">// Add a touch handler.</cmt>
+                    graphic.setOnTouchHandler {
+                        playSound(sound, volume: <num>100</num>)
+                        graphic.glow()
+                    }</code>
+                </block>
+            </blocks>
+        </message>
+        <message name="makeSomeNoise-success" sender="byte">
+           <blocks>
+               <block type="text">
+                   <text id="2g4-JT-jXF"><b>You did it...again!</b></text>
+               </block>
+               <block type="text">
+                   <text id="aZH-hR-kwZ">Now, each time you call your <cv>createCrystal</cv> function, it will return a new graphic that plays a sound, which you can use to make a radical scene.</text>
+               </block>
+               <block type="text">
+                   <text id="m8S-uf-vVb">Next, add more graphics to the scene!</text>
+               </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="7Wk-4a-e21">Next</text>
+                   </button>
+               </block>
+           </blocks>
+       </message>
+        
+        
+        <step type="code" name="createMoreCrystal">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="createMoreCrystal"/>
+                <block type="title">
+                    <title id="123-Jz-3ks">Create More Crystals</title>
+                    <text id="ooo-AQ-K9V">Now that you have a function that returns a graphic, you can create a bunch of graphics quickly and easily. Try it out by making shells, mushrooms, moss, or whatever else you can think of!</text>
+                </block>
+                <block type="carrot" subtype="code"/> 
+                <block type="text">
+                    <text id="ttt-vT-QRI"><a href="playgrounds://currentdocument/currentpage/editor">Open <icon name="main"/> main</a></text>
+                </block>
+                <block type="text">
+                    <text id="Uhm-NG-999">Create as many new graphics as you want and place them in the scene.</text>
+                </block>
+                <block type="code">
+                    <key>let</key> crystalCluster = createCrystal(image: <literal>#imageLiteral(resourceName: "darkCrystalClusterYellow")</literal>, sound: .vocals)
+                    
+                    scene.place(crystalCluster, at: Point(x: <num>-100</num>, y: <num>-300</num>))
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="eEe-55-4vX">Run your code. You should see all your graphics in the scene.</text>
+                </block>
+               
+            </blocks>
+        </step>
+        
+        <message name="createMoreCrystal-success" sender="byte">
+           <blocks>
+               <block type="text">
+                   <text id="US7-pr-iii"><b>Looking great!</b></text>
+               </block>
+                 <block type="text">
+                     <text id="jFt-66-7ij">Keep placing new graphics, or next, check your understanding of return types.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@nextStep" symbol="arrow.right.circle.fill">
+                         <text id="q6p-CC-jxk">Next</text>
+                     </button>
+                 </block>
+           </blocks>
+       </message>
+        <message name="createMoreCrystal-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                     <text id="xKj-h3-Zzz">Try placing at least one more item in the scene.</text>
+                 </block>
+                 <block type="code">
+                    <key>let</key> crystalCluster = createCrystal(image: <literal>#imageLiteral(resourceName: "darkCrystalClusterYellow")</literal>, sound: .vocals)
+                    
+                    scene.place(crystalCluster, at: Point(x: <num>-100</num>, y: <num>-300</num>))
+                </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        
+        <step type="check">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="Wjv-Gq-PT1">Return Types</title>
+                </block>
+                <block type="response" subtype="single-choice" name="returnTypes" confirm="true">
+                    <prompt id="iUK-BY-aHg">What does it mean for a function to <b>return</b> a graphic?</prompt>
+                    <option type="correct">
+                        <text id="zHc-ck-pBZ">The function passes back a value when it finishes executing — in this case, a graphic.</text>
+                        <feedback id="PrF-LM-xAc">Correct! When a function has a return type, it passes back a value, in this case a graphic, when it finishes executing.
+                        
+<a href="@next">Next</a>, make your own function.</feedback>
+                    </option>
+                    <option>
+                        <text id="PZW-3a-cA9">The function takes the type <cv>Image</cv> as an input.</text>
+                        <feedback id="Qgn-15-QQR">No, this describes a parameter, not a return type. Try again!</feedback>
+                    </option>
+                    <option>
+                        <text id="97S-B2-Q45">To describe the task that the function performs.</text>
+                        <feedback id="IIQ-kk-4pw">No, this describes a function definition. Try again!</feedback>
+                    </option>
+                </block>
+            </blocks>
+        </step>
+    </steps>
+</trail>
+
+

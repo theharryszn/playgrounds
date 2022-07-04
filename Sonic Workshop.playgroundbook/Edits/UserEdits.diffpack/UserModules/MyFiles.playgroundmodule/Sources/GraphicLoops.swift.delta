@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(GraphicLoopsCopyright1)*/</string>
+			<key>OriginalRange</key>
+			<string>{4, 46}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{9, 0}</string>
+			<key>OriginalContent</key>
+			<string>ight/*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{55, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ght</string>
+			<key>ModifiedRange</key>
+			<string>{10, 3}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{73, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{33, 0}</string>
+			<key>OriginalContent</key>
+			<string>nc. /*#-localizable-zone(GraphicLoopsCopyright2)*/All rights reserved./*#-end-localizable-zo</string>
+			<key>OriginalRange</key>
+			<string>{105, 92}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>c. All rights reserved.</string>
+			<key>ModifiedRange</key>
+			<string>{34, 23}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{198, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{73, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicLoops01)
+</string>
+			<key>OriginalRange</key>
+			<string>{217, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{253, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{434, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{425, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicLoops02)
+</string>
+			<key>OriginalRange</key>
+			<string>{631, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{606, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{849, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{822, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicLoops03)
+</string>
+			<key>OriginalRange</key>
+			<string>{1090, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{898, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{1203, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1189, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicLoops04)
+</string>
+			<key>OriginalRange</key>
+			<string>{1519, 37}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1295, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{1662, 25}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/GraphicLoops.swift</string>
+</dict>
+</plist>

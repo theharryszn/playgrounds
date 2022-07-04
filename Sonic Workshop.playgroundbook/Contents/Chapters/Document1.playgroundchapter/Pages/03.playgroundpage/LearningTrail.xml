@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0103">
+    <steps>
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="4Uq-7v-AVX">Calling Functions</title>
+                </block>
+                <block type="text"><text id="iWa-Dq-jP7">Now that you’ve written a few of your own functions in a shared file, learn how to call pre-built functions from other shared files to create a robust musical scene.</text></block>
+                <block type="image" source="lotsOfGraphic" height="0.75">
+                    <description id="QcY-pf-48A">An image of all the kinds of graphic you can add, including gems, an oyster, crystals, and mushrooms.</description>
+                </block>
+                
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="dHM-Pu-8N6">Get started!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="code" name="caveGlitter">
+            <blocks>
+                <assessment type="programmatic" name="caveGlitter"/>
+                <block type="title">
+                    <title id="iaS-C7-DTr">Cave Glitter</title>
+                    <text id="2mn-gD-t6p">Explore the <cv>addCaveGlitter</cv> function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/CaveGlitter.swift"><icon name="module"/> CaveGlitter</a> file.</text>
+                    <image source="caveGlitter">
+                        <description id="SLI-KY-WBa">Picture of lots of pentagon shapes of different sizes with a gradient color randomly placed in a cluster.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="3hV-zM-iLG">Looking at the <a href="glossary://function%20definition">function definition</a>, try calling the <cv>addCaveGlitter</cv> function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="N6m-DY-LYr">Run your code, then touch and drag around the cave glitter to hear what kinds of sounds they make.</text>
+                </block>  
+            </blocks>
+        </step>
+        
+        <message name="caveGlitter-success" sender="byte">
+              <blocks>
+                  <block type="text">
+                      <text id="24b-fx-SSB">Learning how to call functions other people wrote it a great skill.</text>
+                  </block>
+                  <block type="text">
+                      <text id="222-alksdjfakdjlieieei">Before you move on, try changing the shape of the cave glitter in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/CaveGlitter.swift"><icon name="module"/> CaveGlitter</a> file.</text>
+                  </block>
+                  <block type="buttons" alignment="trailing">
+                      <button href="@nextStep" symbol="arrow.right.circle.fill">
+                          <text id="5WC-Ag-aVw">Next</text>
+                      </button>
+                  </block>
+              </blocks>
+          </message>
+        <message name="caveGlitter-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="TyR-rM-679">Try calling <cv>addCaveGlitter</cv> in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file, like this:</text>
+                </block>
+               <block type="code">addCaveGlitter(count: <num>50</num>, color: <literal>#colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)</literal>, gradientColor: <literal>#colorLiteral(red: 0.803921568627451, green: 0.803921568627451, blue: 0.803921568627451, alpha: 1.0)</literal>, at: Point(x: <num>160</num>, y: <num>140</num>))</block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        <step type="code" name="graphicCluster">
+            <blocks>
+                <assessment type="programmatic" name="graphicCluster"/>
+                <block type="title">
+                    <title id="DzA-pI-HWd">Graphic Cluster</title>
+                    <text id="qrj-7Z-CKn">Explore the <cv>addGraphicCluster</cv> function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/GraphicCluster.swift"><icon name="module"/> GraphicCluster</a> file.</text>
+                    <image source="crystalCluster">
+                        <description id="YNV-5E-Ivd">Picture of several colorful tall and short crystals.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="tYq-eD-jxZ">Looking at the function definition, try calling the <cv>addGraphicCluster</cv> function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="xgD-Eu-fj7">Run your code, and then touch and drag across the cluster to hear the different sounds. Double-touch the cluster to hear all the sounds played together.</text>
+                </block>
+            </blocks>
+        </step>
+        
+        <message name="graphicCluster-success" sender="byte">
+            <blocks>
+              <block type="text">
+                    <text id="9iF-sv-M6i">You’re really getting the hang of this!</text>
+                </block>
+                <block type="text">
+                    <text id="xxx-Eu-fj7">Try changing the tint colors applied to the graphics in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/GraphicCluster.swift"><icon name="module"/> GraphicCluster</a> file.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="Pkh-kj-2Ci">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+        <message name="graphicCluster-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="mGF-dS-ZVd">Try calling <cv>addGraphicCluster</cv> in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+               <block type="code">addGraphicCluster(image: <literal>#imageLiteral(resourceName: "clearCrystal2Blue")</literal>, sounds: [.email, .galacticTelephone, .printer], at: Point(x: <num>260</num>, y: <num>-350</num>))</block>
+            </blocks>
+        </message>
+        
+        
+        
+        <step type="code" name="graphicLoops">
+            <blocks>
+                <assessment type="programmatic" name="graphicLoops"/>
+                <block type="title">
+                    <title id="g14-xZ-c1A">Graphic Loops</title>
+                    <text id="Y2N-Sc-ADs">Explore the <cv>addGraphicLoops</cv> function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/GraphicLoops.swift"><icon name="module"/> GraphicLoops</a> file.</text>
+                    <image source="mushroomLoops">
+                        <description id="zXw-N2-32g">Picture of several different-sized mushrooms in a cluster.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="j46-5E-dwc">Looking at the function definition, try calling the <cv>addGraphicLoops</cv> function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="NK9-RM-cSH">Run your code and touch the different graphics to toggle them on and off.</text>
+                </block>
+            </blocks>
+        </step>
+        
+        
+        <message name="graphicLoops-success" sender="byte">
+           <blocks>
+             <block type="text">
+                 <text id="eRF-JN-5iy"><b>Sounding good!</b></text>
+             </block>
+             <block type="text">
+                 <text id="NK9-RM-ccc">Change the method being called on graphic in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/GraphicLoops.swift"><icon name="module"/> GraphicLoops</a> file.</text>
+             </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@nextStep" symbol="arrow.right.circle.fill">
+                       <text id="iI9-ph-uhw">Next</text>
+                   </button>
+               </block>
+           </blocks>
+       </message>
+        <message name="graphicLoops-hint" sender="hopper">
+           <blocks>
+               <block type="text">
+                   <text id="xvx-qw-pTr">Try calling <cv>addGraphicLoops</cv> in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+               </block>
+              <block type="code">addGraphicLoops(image: <literal>#imageLiteral(resourceName: "mushroom1Pink")</literal>, sounds: [.labBeats, .getReady], at: Point(x: <num>50</num>, y: <num>-100</num>))</block>
+           </blocks>
+       </message>
+        
+        <step type="code" name="addTones">
+            <blocks>
+                <assessment type="programmatic" name="addTones"/>
+                <block type="title">
+                    <title id="AjG-Yq-KxR">Add Tones</title>
+                    <text id="PPs-ii-cis">Explore the <cv>addTones</cv> function in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/ToneGenerator.swift"><icon name="module"/> ToneGenerator</a> file.</text>
+                    <image source="addInstrument">
+                        <description id="IUa-Za-nfw">Picture of an oyster with a pearl inside.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="dIw-LY-78Q">Looking at the function definition, try calling the <cv>addTones</cv> function in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="ytX-4Y-RC3">Run your code, then touch and drag across the graphic to play different tones.</text>
+                </block>
+          
+            </blocks>
+        </step>
+        
+        <message name="addTones-success" sender="byte">
+            <blocks>
+              <block type="text">
+                  <text id="f2D-bk-LAA"><b>Nice work!</b></text>
+              </block>
+              <block type="text">
+                  <text id="y66-4Y-RC3">Try changing the value of the range in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/ToneGenerator.swift"><icon name="module"/> ToneGenerator</a> file.</text>
+              </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="1Un-DC-UeC">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        <message name="addTones-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="GhZ-FL-TrM">Try calling <cv>addTones</cv> in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                </block>
+               <block type="code">addTones(image: <literal>#imageLiteral(resourceName: "oysterPinkBlue")</literal>, at: Point(x: <num>-300</num>, y: <num>100</num>))</block>
+            </blocks>
+        </message>
+        
+        <step type="check">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge"><title id="SfE-vw-GQQ">Function Definition</title></block>
+                <block type="text">
+                    <code><key>public func</key> createWaterSparkles(image: <type>Image</type>, sound: <type>SonicSound</type>) -> <type>Graphic</type> {
+                    
+                    }</code>
+                </block>
+                <block type="response" subtype="multiple-choice" name="functionDefinition" confirm="true">
+                    <prompt id="vk9-4a-zHH">How would you call the function above in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file? Select all that apply.</prompt>
+                    <option>
+                        <text id="j1s-hQ-wMP"><code><key>let</key> diamond = createWaterSparkles()</code></text>
+                        <feedback id="c3B-xb-ase">Don’t forget about the parameters! Try again!</feedback>
+                    </option>
+                    <option type="correct">
+                        <text id="MxQ-Ik-HNS"><code><key>let</key> diamond = createWaterSparkles(image: 💎, sound: .steelDrum)</code></text>
+                        <feedback id="XH7-pc-xQa">Correct! You can store the graphic returned by this function in a constant. This creates and stores a graphic with the 💎 image and the <cv>steelDrum</cv> sound.
+                        
+<a href="@next">Next</a>, learn what else you can do with sounds and music.</feedback>
+                    </option>
+                    <option type="correct">
+                        <text id="eRf-7A-bWG"><code>createWaterSparkles(image: 💎, sound: .steelDrum)</code></text>
+                        <feedback id="ECt-zZ-Fz7">While this is technically correct, by not assigning the result of this function to a constant, you aren’t storing the returned graphic for later use, like placing it in the scene.</feedback>
+                    </option>
+                </block>
+            </blocks>
+        </step>
+    </steps>
+</trail>

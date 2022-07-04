@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Loops
+var names = ["Malcolm", "Vamp", "Carti", "Drake", "SL"];
+
+for name in names {
+    print(name)
+}
+
+// Conditions
+if(names.count &gt; 6) {
+    print("Enough names");
+} else {
+    print("Not Enough names. Add More")
+}
+
+var optionalString: String? = "Hello"
+print(optionalString == nil)
+
+var optionalName: String? = "James Bond";
+var greeting = "Hello!"
+if let name = optionalName {
+    greeting = "Hello, \(name)"
+}
+print(greeting);
+
+
+// Switch Statements
+
+var fruit = "orange"
+
+switch fruit {
+case "apple":
+    print("Cedar")
+    break;
+    
+case "orange":
+    print("Citrus")
+    break;
+default:
+    print("Is this playing")
+}
+
+
+// Looping through Dictionaries
+
+let interestingNumbers = [
+    "Prime": [2, 3, 5, 7, 11, 13],
+    "Fibonacci": [1, 1, 2, 3, 5, 8],
+    "Square": [1, 4, 9, 16, 25],
+]
+var largest = 0
+for (_, numbers) in interestingNumbers {
+    for number in numbers {
+        if number &gt; largest {
+            largest = number
+        }
+    }
+}
+print(largest);
+
+
+// While loops
+
+var n = 0;
+while n &lt; 10 {
+    print(n)
+    n += 1;
+}
+
+// Repeat - While loop
+
+var m = 2
+repeat {
+    print(m)
+    m *= 2
+} while m &lt; 10
+
+print("End While")
+
+// Range
+
+// Closed Range
+print("Closed Range")
+for i in 0...4 {
+    print(i)
+}
+
+// Half Opened Range
+print("Half Opened Range")
+for i in 0..&lt;5 {
+    print(i)
+}
+
+// One Sided Range
+print("One Sided Range")
+var foods = ["Garri", "Rice", "Spag", "Semo", "Bread"]
+
+for food in foods[..&lt;2] {
+    print(food)
+}
+
+for food in foods[2...] {
+    print(food)
+}
+
+// Strings
+var message = "I \u{1F496} you";
+print(message)
+
+var threeMore = #"""
+Hello World
+"""#
+
+threeMore.insert(contentsOf: " and Nigeria", at: threeMore.index(threeMore.startIndex, offsetBy: 11))
+
+print(threeMore)
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1726}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2571, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(main00k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2571, 31}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var crystal = Graphic(image: </string>
+			<key>ModifiedRange</key>
+			<string>{2596, 29}</string>
+			<key>OriginalContent</key>
+			<string>//</string>
+			<key>OriginalRange</key>
+			<string>{2627, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>imageLiteral(resourceName: "clearCrystal1Pink"))</string>
+			<key>ModifiedRange</key>
+			<string>{2626, 48}</string>
+			<key>OriginalContent</key>
+			<string>-end-localizable-zone</string>
+			<key>OriginalRange</key>
+			<string>{2630, 21}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2676, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(main00k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2653, 31}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>sc</string>
+			<key>ModifiedRange</key>
+			<string>{2712, 2}</string>
+			<key>OriginalContent</key>
+			<string>//#-</string>
+			<key>OriginalRange</key>
+			<string>{2720, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>e.place(crystal, at: P</string>
+			<key>ModifiedRange</key>
+			<string>{2716, 22}</string>
+			<key>OriginalContent</key>
+			<string>d-l</string>
+			<key>OriginalRange</key>
+			<string>{2726, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2739, 0}</string>
+			<key>OriginalContent</key>
+			<string>cal</string>
+			<key>OriginalRange</key>
+			<string>{2730, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>nt(x: 240, y: </string>
+			<key>ModifiedRange</key>
+			<string>{2740, 14}</string>
+			<key>OriginalContent</key>
+			<string>zable</string>
+			<key>OriginalRange</key>
+			<string>{2734, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>180))</string>
+			<key>ModifiedRange</key>
+			<string>{2755, 5}</string>
+			<key>OriginalContent</key>
+			<string>zone</string>
+			<key>OriginalRange</key>
+			<string>{2740, 4}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2762, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(main00k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{2746, 31}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2786, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2801, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>crystal.setOnTouchHandler {
+    // Play a sound.
+    playSound(.caveBeats, volume: 100)
+    // Graphic methods.
+    crystal.glow()
+    
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{2787, 138}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2827, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document1.playgroundchapter/Pages/00.playgroundpage/main.swift</string>
+</dict>
+</plist>

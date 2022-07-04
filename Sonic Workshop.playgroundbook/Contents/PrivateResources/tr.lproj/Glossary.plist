@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>Title</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict/>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Alfa veya *alfa kanalı*, rengin opaklığıyla ilgili ve `0` (tamamen saydam) ile `1` (tamamen opak) aralığında bir değerdir. Alfa verisi, 0 ile 1 aralığında bir double’dır (ondalık sayı).</string>
+				<key>Title</key>
+				<string>alfa</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`true` veya `false` değerine sahip bir tip. Örneğin `9 &lt; 7`, `false` Boole değerini döndürür çünkü `9`, `7`’den küçük değildir.</string>
+				<key>Title</key>
+				<string>Boole</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kesirli kısma sahip sayıları (örneğin 3.14) saklayan bir tip. Kodlama sırasında ondalık ayırıcı olarak virgül yerine nokta kullanman gerektiğini unutma.</string>
+				<key>Title</key>
+				<string>Çift</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tam sayı (`10` veya `-42` gibi kesirli olmayan bir sayı) saklayan bir tip.</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>MyFiles</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>MyFiles, [paylaşılan dosyalarınızın](glossary://shared%20file) tamamını kapsar. MyFiles’dan bir dosya seçerek onu yeni bir sekmede açabilirsiniz.</string>
+				<key>Title</key>
+				<string>MyFiles</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`"Merhaba dünya"` veya `"dans eden kedicikler"` gibi karakter dizilerini saklayan bir tip.</string>
+				<key>Title</key>
+				<string>Dizgi</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Apple’ın iPhone, iPad, Mac, Apple Watch ve Apple TV için uygulama yazmak amacıyla kullanılan programlama dili.</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sayının işaretsiz değeri. Örneğin -12’nin mutlak değeri 12 ve 23.4’ün mutlak değeri 23.4’tür.</string>
+				<key>Title</key>
+				<string>mutlak değer</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sorunu çözmek için kullanılan adım adım yönerge veya kural kümesi. Örneğin bir bardak çay hazırlamak için kullanılan adımların listesi bir algoritma sayılabilir.</string>
+				<key>Title</key>
+				<string>algoritma</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başka bir şeyin sonuna eklemek. Örneğin bir dizgiyi başka bir dizginin sonuna ekleyebilir veya bir öğeyi öğelerden oluşan bir dizinin sonuna ekleyebilirsin.
+</string>
+				<key>Title</key>
+				<string>sona ekleme</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli görevleri gerçekleştirmeni sağlayan ve koddan oluşan yazılım. Örneğin mesaj alıp göndermek için Mesajlar uygulamasını kullanırsın.</string>
+				<key>Title</key>
+				<string>uygulama</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Davranışını özelleştirmek için fonksiyona geçirilen bir girdi değeri. Örneğin `move(distance: 3)` fonksiyon çağrısında `3` sayısı, kaç aralık ileri gidileceğini belirten bir argümandır.</string>
+				<key>Title</key>
+				<string>argüman</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya birden fazla sayıyla temel matematik işlemi gerçekleştiren `+`, `-`, `*` veya `/` gibi bir sembol. Örneğin `42 / 7` ve `17 - 5` aritmetik işleç kullanır.</string>
+				<key>Title</key>
+				<string>aritmetik işleç</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aynı tipteki öğelerin sıralı listesini saklayan bir koleksiyon. Aynı öğe, farklı konumlarda birden fazla kez görünebilir. Örneğin `highScores = [37, 34, 29, 29, 26]` [tam sayılardan](glossary://Int) oluşan bir dizidir.</string>
+				<key>Title</key>
+				<string>dizi</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değişkenin veya sabitin değerini ayarlayan bir eylem.</string>
+				<key>Title</key>
+				<string>atama</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`=` sembolü, bir değişkenin değerini ayarlamak için kullanılır. Örneğin `greeting = "merhaba"` ifadesi `greeting` değerini `"merhaba"` olarak ayarlar.</string>
+				<key>Title</key>
+				<string>atama işleci</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir dizide, dizi indeksinin sahip olabileceği değer aralığı. Örneğin `[17, 42, 95]` dizisinde indeks değerleri 0 ile 2 arasında olabilir. Sınır denetimi, indeks değerinin dizi sınırları içinde olduğunu doğrulama işlemidir.</string>
+				<key>Title</key>
+				<string>sınırlar</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kameraya gelen ışık miktarı: `0` (ışık yok) ile `1` (tam ışık) aralığında. Parlaklık, `0` ile `1` arasında bir [Double](glossary://Double) (ondalık sayı) olur.</string>
+				<key>Title</key>
+				<string>parlaklık</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda uygulamanın beklendiği gibi çalışmasını engelleyen bir sorun. 
+</string>
+				<key>Title</key>
+				<string>hata</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/00.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mağara Sesleri</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda bir fonksiyonu çağırmak, o fonksiyonun çalışıp içinde tanımlanmış olan eylemleri gerçekleştirmesi talimatını vermektir.</string>
+				<key>Title</key>
+				<string>çağırma</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sınıf, aynı tipte şeylerin birden fazla kopyasını oluşturma planı gibi davranan bir kod kapsayıcısıdır. Tıpkı bir planın bir nesnenin (bisiklet gibi) özelliklerini ve davranışlarını tanımlaması gibi sınıf da bunları [özellikler](glossary://property) ve [metotlar](glossary://method) olarak tanımlar.
+
+Bir sınıfın yeni bir kopyasını veya [örneğini](glossary://instance) yarattığında, bu örnek, planın tüm özelliklerini ve metotlarını içerir. Ancak örneklerdeki değerler bağımsız bir şekilde değiştirilebildiği için her kopyanın davranış şeklini özelleştirebilirsin. Örneğin bisiklet sınıfında bir renk özelliği olabilir ve böylece hem kırmızı hem de mavi bisiklet yaratabilirsin.</string>
+				<key>Title</key>
+				<string>sınıf</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/00.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mağara Sesleri</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kapamalar, bir ad gerekmeden yerinde çalıştırılan [fonksiyonlardır](glossary://function).
+```
+scene.setOnStartHandler {
+    // Kapamanın gövde metni
+}
+```
+                    
+Kapamalar, herhangi bir sabite ve değişkene tanımlandığı bağlamda referans tutup saklayabilir. Bu, söz konusu sabitlerin ve değişkenlerin üzerinin kapanması olarak bilinir.</string>
+				<key>Title</key>
+				<string>kapama</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir değer döndürmek için değerlendirilebilecek bir kod parçası. Örneğin `months` (aylar) 12 öğeden oluşan bir dizi ise `months.count - 1` kod ifadesi `11` değerini döndürür.</string>
+				<key>Title</key>
+				<string>kod ifadesi</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir uygulama yaratmak için komutları, kod yapılarını ve algoritmaları birleştirme eylemi.</string>
+				<key>Title</key>
+				<string>kodlama</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Birden fazla veri saklamak için kullanılan dizi veya sözlük gibi bir veri yapısı.</string>
+				<key>Title</key>
+				<string>koleksiyon</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamaya belirli bir eylemi gerçekleştirmesini söyleyen kod. </string>
+				<key>Title</key>
+				<string>komut</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>İki değeri karşılaştırmak için kullanılan `==`, `!=`, `&lt;`, `&gt;`, `&lt;=` veya `&gt;=` gibi bir sembol. Karşılaştırma işleci, `if` ifadesinin veya `while` döngüsünün bir koşulundaki karşılaştırmanın `true` (doğru) olup olmadığını belirten bir Boole değeri döndürmek için kullanılabilir. Örneğin `6 &gt; 8`, `6` ile `8`’i karşılaştırır ve `false` (yanlış) değerini döndürür.</string>
+				<key>Title</key>
+				<string>karşılaştırma işleci</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Derleyici hataları, koddaki yanlışlardan kaynaklanır. Bunları soldaki marjda ve araç çubuğunda kırmızı nokta olarak görürsün.</string>
+				<key>Title</key>
+				<string>derleyici hatası</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Büyük bir sorunu çözmek için uygulamanın küçük parçalarını birleştirme işlemi. </string>
+				<key>Title</key>
+				<string>kompozisyon</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Atamayı (değişkenin değerini ayarlama), toplama veya çıkarma gibi başka bir işlemle birleştiren bir işleç. Örneğin `a`’nın mevcut değeri `1` ise `a += 3` kullanıldığında, `3`’e `1` eklenir ve sonuç `a`’ya atanır, böylece `a`’nın değeri artık `4` olur.</string>
+				<key>Title</key>
+				<string>bileşik atama işleci</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yalnızca belirli koşullar sağlandığında çalışan kod. Örneğin `if` ifadeleri ve `while` döngüleri yalnızca bir koşul `true` ise (sağlanıyorsa) veya “true” olduğu (sağlandığı) sürece çalışan koşullu kod içerir.</string>
+				<key>Title</key>
+				<string>koşullu kod</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değiştirilemeyen bir değer saklayan adlandırılmış bir kapsayıcı.</string>
+				<key>Title</key>
+				<string>sabit</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uzaydaki bir konumu benzersiz bir şekilde belirleyen sayı grubu. Örneğin (100, -200), 2B bir uzayda bir noktanın koordinatlarıdır; x koordinatı 100, y koordinatı ise -200’dür.</string>
+				<key>Title</key>
+				<string>koordinatlar</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayar tarafından işlenen veya saklanan ve onunla işlem yapan koddan ayrı olan bilgiler.</string>
+				<key>Title</key>
+				<string>veri</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda uygulamanın doğru çalışmasını engelleyen hataları bulup düzeltmek. </string>
+				<key>Title</key>
+				<string>hata ayıklama</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanda fonksiyon, değişken veya özel tip gibi yeni bir şeyler yaratan kod parçası. Örneğin `let planet = "Dünya"` ifadesi `planet` adında yeni bir sabit bildirir ve ona `"Dünya"` değerini verir.</string>
+				<key>Title</key>
+				<string>bildirim</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Büyük bir sorunu daha küçük ve yönetilebilir parçalara bölme işlemi.</string>
+				<key>Title</key>
+				<string>ayrıştırma</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sayıyı bir tam sayı değeri kadar (çoğunlukla 1) azaltmak.</string>
+				<key>Title</key>
+				<string>azaltma</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Fonksiyon, değişken veya özel tip gibi yeni yaratılmış bir kod parçasının açık değerini veya davranışını vermek. Örneğin bir fonksiyonu, fonksiyonun ne yapacağını söylemek amacıyla içinde bir komut kümesi vererek tanımlarsın.</string>
+				<key>Title</key>
+				<string>tanımlama</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir örneğin özelliklerine erişmek veya metotlarını çağırmak için kullanılan söz dizimi biçimi. Örneğin `expert.toggleSwitch()`, `expert` örneğinde `toggleSwitch()` metodunu çağırır.</string>
+				<key>Title</key>
+				<string>nokta notasyonu</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir kod parçasının ne kadar iyi olduğunun bir ölçüsü, mümkün olduğunca az kaynak (bellek veya güç gibi) kullanarak hedeflenen amacı hızlı bir şekilde gerçekleştirmesidir.</string>
+				<key>Title</key>
+				<string>verimlilik</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir `if` ifadesindeki son kod öbeği. `else` öbeği, `if` ifadesindeki tüm koşullar `false` ise çalıştırılır.</string>
+				<key>Title</key>
+				<string>else öbeği</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir `if` ifadesinde, `if` öbeği veya başka bir `else if` öbeği tarafından denetlenmeyen bir koşulu denetlemek için kullanılan kod öbeği.</string>
+				<key>Title</key>
+				<string>else if öbeği</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Benzersiz ama birbiriyle ilişkili *enum sabiti listesi* olarak adlandırılan değerler kümesini tanımlayan bir tip. Örneğin `Direction` listesi her bir ana yön durumunu tanımlar: `north`, `south`, `east` ve `west`. Listeyi bir değişkene veya sabite atarken her zaman sadece bir durumunu seçersin; örneğin `let compassDirection: Direction = .north`.</string>
+				<key>Title</key>
+				<string>enum sabiti</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayar uygulaması tarafından algılanabilecek bir eylem. Bir girdi (düğmeye basma veya ekranı döndürme gibi) bir olayı tetikler.</string>
+				<key>Title</key>
+				<string>olay</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir olay gerçekleştikten sonra olayı işlemek için çağrılan bir fonksiyon.</string>
+				<key>Title</key>
+				<string>olay işleyici</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir koleksiyondaki veya veri yapısındaki verileri yeni bir veri kümesi oluşturmak için işleme.</string>
+				<key>Title</key>
+				<string>filtreleme</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir tasarım stilinde, kalınlığında ve büyüklüğünde olan metin karakterleri kümesi. Fontun tasarım stili onun *yazı tipi* olarak bilinir ve bu tasarımın varyasyonları yazı tipi *ailesini* oluşturur. Örneğin HelveticaNeue bir yazı tipi ve 10 punto HelveticaNeue-Bold bir fonttur.</string>
+				<key>Title</key>
+				<string>font</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir sayıda çalıştırılacak yinelenen kod öbeği.</string>
+				<key>Title</key>
+				<string>for döngüsü</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>İki noktayla (`:`) ayrılmış parametre adları da dahil olmak üzere fonksiyonun tam adı; örneğin `move(to:duration:)`.</string>
+				<key>Title</key>
+				<string>tam fonksiyon adı</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Gereksinim duyulduğunda çalıştırılabilen adlandırılmış bir [komut](glossary://command) kümesi.</string>
+				<key>Title</key>
+				<string>fonksiyon</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/02.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Kendi Fonksiyonun</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir fonksiyon tanımı; fonksiyonun ne yaptığını, ne almayı beklediğini ve işi bittiğinde ne döndüreceğini açıklar.</string>
+				<key>Title</key>
+				<string>fonksiyon tanımı</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/00.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mağara Sesleri</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Beyazdan siyaha uzanan gri tonu aralığı.</string>
+				<key>Title</key>
+				<string>gri tonlu</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hertz (Hz), saniyede bir devirdir. Ses titreşimlerine uygulandığında, 1 Hz, saniyede bir ses dalgasıdır. İnsan kulağı 20 Hz ile 16.000 Hz arasındaki sesleri duyabilir.</string>
+				<key>Title</key>
+				<string>hertz</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Renk tekerindeki rengin tonu. Bu, `0` ile `1` aralığında bir double’dır (ondalık sayı).</string>
+				<key>Title</key>
+				<string>renk özü</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir `if` ifadesindeki ilk kod öbeği. `if` öbeği, `if` ifadesindeki koşul `true` ise (sağlanıyorsa) çalıştırılır.</string>
+				<key>Title</key>
+				<string>if öbeği</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya birden fazla koşulun değerine bağlı olarak kod çalıştırmak için kullanılan bir kod yapısı. Bir `if` ifadesindeki ilk kod öbeği `if` öbeğidir. `if` ifadesi, `else` öbeği ve `else if` öbeği gibi ek denetimler sağlayan başka öbekler içerebilir.</string>
+				<key>Title</key>
+				<string>if ifadesi</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sayıyı bir tam sayı değeri kadar (çoğunlukla 1) artırmak.</string>
+				<key>Title</key>
+				<string>artırma</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Öğenin [dizi](glossary://array) içindeki konumunu temsil eden bir sayı.</string>
+				<key>Title</key>
+				<string>indeks</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dizinin aralığı dışında bir indeks kullanarak diziye erişmeye çalışmanın neden olduğu bir hata. Örneğin `2` indeksi şu dizinin aralığı dışındadır: `[17, 42]`.</string>
+				<key>Title</key>
+				<string>indeks aralığın dışında hatası</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir tipte, tipin özelliklerinin ilk değerlerini ayarlamayı da içeren, yeni bir örnek yaratma eylemi.</string>
+				<key>Title</key>
+				<string>ilk değer atama</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başka bir (dış) döngünün içine yerleştirilmiş yinelenen kod öbeği (döngü).</string>
+				<key>Title</key>
+				<string>iç döngü</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir [tipteki](glossary://type) değer. Örneğin `let motion = MotionSensor()` ifadesinde `motion`, `MotionSensor` tipinde bir örnektir.</string>
+				<key>Title</key>
+				<string>örnek</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir işlemi yineleme eylemi (dizinin her bir öğesinde aynı eylemi gerçekleştirme gibi).</string>
+				<key>Title</key>
+				<string>tekrar</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/00.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mağara Sesleri</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hazır bilgiler, görüntü arşivini veya renk seçiciyi kullanarak görüntüleri veya renkleri doğrudan koduna gömebilmeni sağlar. Hazır bilgiler, doğrudan düzenleyicide kendi doğal biçimlerinde gösterilen gerçek veri değerleridir.</string>
+				<key>Title</key>
+				<string>hazır bilgi</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun tamamının “true” değerine sahip olabilmesi için her iki değerin de “true” olması gerektiği durumlarda iki Boole değerini birleştiren bir sembol (`&amp;&amp;`). Örneğin `a &amp;&amp; b` ifadesi yalnızca hem `a` hem de `b` `true` değerine sahipken “true” olur.</string>
+				<key>Title</key>
+				<string>mantıksal AND işleci</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir kod parçasının Boole değerini tersine çeviren bir sembol (`!`). Örneğin `a` `true` ise `!a` `false` olur.</string>
+				<key>Title</key>
+				<string>mantıksal NOT işleci</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun tamamının “true” değerine sahip olabilmesi için değerlerden yalnızca birinin “true” olması gerektiği durumda iki Boole değerini birleştiren bir sembol (`||`). Örneğin `a || b` ifadesi, `a` veya `b` (ya da her ikisi birden) `true` iken `true` olur.</string>
+				<key>Title</key>
+				<string>mantıksal OR işleci</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`true` ve `false` mantıksal Boole değerlerini değiştiren veya birleştiren `&amp;&amp;`, `||` veya `!` gibi bir sembol.</string>
+				<key>Title</key>
+				<string>mantıksal işleç</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli sayıda (örneğin `for` döngüsü) veya bir koşul sağlanana dek (örneğin `while` döngüsü) yinelenen bir kod öbeği.</string>
+				<key>Title</key>
+				<string>döngü</string>
+			</dict>
+		</dict>
+		<key>main</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>![main dosyasının simgesi](book.png) **main** dosyası, oyun alanı kitabındaki bir sayfaya ait dosyadır.</string>
+				<key>Title</key>
+				<string>main</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayarın, uygulama kodunu ve uygulamanın kullandığı verileri geçici veya kalıcı olarak saklayan bölümü.</string>
+				<key>Title</key>
+				<string>bellek</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/00.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mağara Sesleri</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [tipin](glossary://type) içinde tanımlanmış fonksiyon veya komut kümesi.</string>
+				<key>Title</key>
+				<string>metot</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sayı başka bir sayıya bölündüğünde kalanı döndüren bir sembol (`%`). Örneğin `17 % 5`, `2` değerini döndürür.</string>
+				<key>Title</key>
+				<string>mod işleci</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Döngü gibi yinelenen bir kod öbeğini başka bir yinelenen kod öbeğinin içine yerleştirmek.</string>
+				<key>Title</key>
+				<string>iç içe yerleştirme</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya birden fazla değer üzerindeki bir eylemi temsil eden `+`, `-` veya `&amp;&amp;` gibi bir sembol. Örneğin `1 + 2` ifadesinde toplama işleci olan (`+`), `1` ve `2` sayılarını toplar.</string>
+				<key>Title</key>
+				<string>işleç</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başka bir (iç) döngü içeren yinelenen kod öbeği (döngü).</string>
+				<key>Title</key>
+				<string>dış döngü</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/00.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Mağara Sesleri</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Fonksiyonun girdi değerinin, fonksiyonun tanımında kullanılan adı. Örneğin `move(distance: Int)` için `distance`, Int tipinde değer alan bir parametredir.</string>
+				<key>Title</key>
+				<string>parametre</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yinelenen durum veya veri kümesi.</string>
+				<key>Title</key>
+				<string>örüntü</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Müzikte esasen titreşim frekansına dayanan nota perdesi, notanın ne kadar tiz veya bas olduğu anlamına gelir. Notanın perdesi [Hertz](glossary://hertz) cinsinden ölçülebilir. Yüksek bir perde (~2000 Hz) ıslığa, düşük bir perde (~40 Hz) inek böğürmesine benzer.</string>
+				<key>Title</key>
+				<string>perde</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Private anahtar sözcüğü, kodu yalnızca belirli kaynak dosyada kullanılabilir hale getirir.
+- callout(Örnek):
+    `private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>private</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir tipin içinde tanımlanmış bir değişken (değer saklayan adlandırılmış bir kapsayıcı).</string>
+				<key>Title</key>
+				<string>özellik</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Algoritmanın, genellikle günlük dil ve kod karışımı kullanılarak yazılmış kolay okunabilir bir açıklaması.</string>
+				<key>Title</key>
+				<string>sözde kod</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Public anahtar sözcüğü, kodu projendeki herhangi bir dosyada kullanılabilir hale getirir.
+                                    
+- callout(Örnek):
+    `public func decorateWithSticker(space: Space) { }`
+                                </string>
+				<key>Title</key>
+				<string>public</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Fonksiyonları Yeniden Kullanma</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir fonksiyon tanımlarken isteğe bağlı olarak dönüş tipini yani fonksiyonun işi bittiğinde çıktı olarak vereceği değerin tipini tanımlayabilirsin.</string>
+				<key>Title</key>
+				<string>dönüş tipi</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun, uygulama içinde farklı durumlarda kullanılabilmesini sağlayan bir özelliği.</string>
+				<key>Title</key>
+				<string>yeniden kullanılabilirlik</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Grinin bir tonuyla tam renk arasında renk özü yoğunluğu. Doyma, `0` ile `1` aralığında bir double’dır (ondalık sayı).</string>
+				<key>Title</key>
+				<string>doyma</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sensör, olayları (sıcaklık, ışık, ses veya hareket ile ilgili bir değişiklik gibi) algılayıp bir değer döndüren aygıttır.</string>
+				<key>Title</key>
+				<string>sensör</string>
+			</dict>
+		</dict>
+		<key>shared file</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Paylaşılan dosya; herhangi bir oyun alanı sayfasında ve diğer paylaşılan dosyalarda kullanabileceğin [değişkenler](glossary://variable), [fonksiyonlar](glossary://function) veya [sınıflar](glossary://class) gibi [bildirimler](glossary://declaration) içerir.
+
+Bildirimlerin tüm dosyalarda kullanılabilmesini sağlamak için [public](glossary://public), yalnızca belirli kaynak dosyada kullanılabilmesini sağlamak için [private](glossary://private) anahtar sözcüğünü kullan.</string>
+				<key>Title</key>
+				<string>paylaşılan dosya</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Genellikle metinden oluşturulan ve insan konuşmasına benzeyen, bilgisayar tarafından oluşturulmuş ses.</string>
+				<key>Title</key>
+				<string>konuşma sentezleme</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değişkenin, uygulamanın veya sistemin belirli bir zamanda kayıtlı bilgileri.</string>
+				<key>Title</key>
+				<string>durum</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamadaki kodu düzenleyen döngü veya `if` ifadesi gibi bir yapı.</string>
+				<key>Title</key>
+				<string>ifade</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dizgi bir ayırıcı tarafından bölümlere ayrıldıktan sonra dizginin bir parçası (veya alt dizgi). Örneğin `"köpek+kedi+balık"` dizgisi, `"+"` ayırıcısı ile ayrılırsa sonuçta oluşan bileşenler `"köpek"`, `"kedi"` ve `"balık"` dizgileridir.</string>
+				<key>Title</key>
+				<string>dizgi bileşeni</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir dizgiyi diğerinin ucuna ekleyerek dizgileri birleştirme işlemi. Örneğin `"sivri"` ve `"sinek"` birleştirildiğinde `"sivrisinek"` olur.</string>
+				<key>Title</key>
+				<string>dizgi birleştirme</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uzun bir dizgide sabitlerin, değişkenlerin veya kod ifadelerinin kullanılıp dizgi değerlendirildiğinde o anki değerlerin bunların yerine kullanılması. Örneğin `"Deniz bir \(meyve) yedi."` dizgisinde `meyve` `"şeftali"` değerine sahip bir değişkense dizgi hesaplandığında `\(meyve)` yerine `"şeftali"` gelir ve dizgi `"Deniz bir şeftali yedi."` olur.</string>
+				<key>Title</key>
+				<string>dizgiye ara değer ekleme</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayarların anlayıp çalıştırabileceği kod yazma kuralları.</string>
+				<key>Title</key>
+				<string>söz dizimi</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Veri tipindeki özelliklerin (niteliklerin) ve metotların (davranışların) adlandırılmış bir grubu.</string>
+				<key>Title</key>
+				<string>tip</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yazılı dili görüntülendiğinde açık, okunaklı ve çekici yapmak amacıyla yazıyı düzenleme sanatı ve tekniği.</string>
+				<key>Title</key>
+				<string>tipografi</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanın kullanıcıyla etkileşiminden (kullanıcının ekrana dokunması, klavyeyle metin girmesi veya mikrofona konuşması gibi) aldığı bilgiler. 
+</string>
+				<key>Title</key>
+				<string>kullanıcı girdisi</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değiştirilebilen bir değer saklayan adlandırılmış bir kapsayıcı.</string>
+				<key>Title</key>
+				<string>değişken</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>First Use</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ses yüksekliği, sesin [sensör](glossary://sensor) tarafından algılanan yüksekliğidir. 0 ile 1 aralığındadır.</string>
+				<key>Title</key>
+				<string>ses yüksekliği</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir koşul `true` olduğu (sağlandığı) sürece çalıştırılan kod öbeği. Koşul `false` değerine değişirse döngü durdurulur.</string>
+				<key>Title</key>
+				<string>while döngüsü</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bulmaca dünyasında mücevher, düğme veya blok gibi bir öğenin iskeleti. Tel kafes, bulmacanın her çalıştırılışında öğenin rasgele görünme olasılığını belirtmek için kullanılır.</string>
+				<key>Title</key>
+				<string>tel kafes</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

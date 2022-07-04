@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(GraphicClusterCopyright1)*/</string>
+			<key>OriginalRange</key>
+			<string>{4, 48}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{13, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-end-localizable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{61, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{33, 0}</string>
+			<key>OriginalContent</key>
+			<string>nc. /*#-localizable-zone(GraphicClusterCopyright2)*/All rights reserved./*#-end-localizable-zo</string>
+			<key>OriginalRange</key>
+			<string>{107, 94}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>c. All rights reserved.</string>
+			<key>ModifiedRange</key>
+			<string>{34, 23}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{202, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{73, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicCluster01)
+</string>
+			<key>OriginalRange</key>
+			<string>{221, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{271, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{458, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{392, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicCluster02)
+</string>
+			<key>OriginalRange</key>
+			<string>{604, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{524, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{775, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{698, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicCluster03)
+</string>
+			<key>OriginalRange</key>
+			<string>{974, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{808, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{1123, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1076, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicCluster04)
+</string>
+			<key>OriginalRange</key>
+			<string>{1416, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1177, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{1556, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1788, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(GraphicCluster05)
+</string>
+			<key>OriginalRange</key>
+			<string>{2192, 39}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1838, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2281, 25}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/GraphicCluster.swift</string>
+</dict>
+</plist>

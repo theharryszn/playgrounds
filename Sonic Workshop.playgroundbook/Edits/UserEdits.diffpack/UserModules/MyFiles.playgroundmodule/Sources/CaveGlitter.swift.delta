@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4, 0}</string>
+			<key>OriginalContent</key>
+			<string>/*#-localizable-zone(CaveGlitterCopyright1)*/</string>
+			<key>OriginalRange</key>
+			<string>{4, 45}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{9, 0}</string>
+			<key>OriginalContent</key>
+			<string>ight/*#-end-local</string>
+			<key>OriginalRange</key>
+			<string>{54, 17}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ght</string>
+			<key>ModifiedRange</key>
+			<string>{10, 3}</string>
+			<key>OriginalContent</key>
+			<string>zable-zone*/</string>
+			<key>OriginalRange</key>
+			<string>{72, 12}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{33, 0}</string>
+			<key>OriginalContent</key>
+			<string>nc. /*#-localizable-zone(CaveGlitterCopyright2)*/All rights reserved./*#-end-localizable-zo</string>
+			<key>OriginalRange</key>
+			<string>{104, 91}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>c. All rights reserved.</string>
+			<key>ModifiedRange</key>
+			<string>{34, 23}</string>
+			<key>OriginalContent</key>
+			<string>e*/</string>
+			<key>OriginalRange</key>
+			<string>{196, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{73, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(CaveGlitter01)
+</string>
+			<key>OriginalRange</key>
+			<string>{215, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{230, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{408, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{325, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(CaveGlitter02)
+</string>
+			<key>OriginalRange</key>
+			<string>{528, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{396, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{635, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1081, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(CaveGlitter03)
+</string>
+			<key>OriginalRange</key>
+			<string>{1345, 36}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1152, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{1452, 25}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/CaveGlitter.swift</string>
+</dict>
+</plist>

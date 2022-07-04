@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LiveViewEdgeToEdge</key>
+	<true/>
+	<key>LiveViewMode</key>
+	<string>VisibleByDefault</string>
+	<key>Name</key>
+	<string>Name</string>
+	<key>PlaygroundLoggingMode</key>
+	<string>Off</string>
+	<key>InstructionPanelRootURL</key>
+	<string>LearningTrail.xml</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>UserModuleSourceFileToActivate</key>
+	<string>UserModules/MyFiles.playgroundmodule/Sources/Crystals.swift</string>
+	<key>UserModuleCodeCompletionDirectives</key>
+	<array>
+		<string>everything, hide</string>
+		<string>description, hide, &quot;(hue: CGFloat, saturation: CGFloat, brightness: CGFloat, alpha: CGFloat)&quot;, &quot;(x: CGFloat, y: CGFloat)&quot;, &quot;(x: Float, y: Float)&quot;, &quot;(width: CGFloat, height: CGFloat)&quot;, &quot;(width: Float, height: Float)&quot;, &quot;(point: CGPoint)&quot;, &quot;(from: Decoder) throws&quot;, &quot;(music: Music, volume: Int)&quot;, &quot;playMusic(music: Music, volume: Int)&quot;, &quot;(sound: Sound, volume: Int)&quot;, &quot;playSound(sound: Sound, volume: Int)&quot;, &quot;from(playgroundValue: PlaygroundValue)&quot;, &quot;(sound: Sound)&quot;, &quot;(sound: Sound, loopFireHandler: (() -&gt; Void)?)&quot;</string>
+		<string>identifier, hide, proxy, listener</string>
+		<string>keyword, show, for, func, if, let, var, while, in</string>
+		<string>currentmodule, show</string>
+		<string>module, show, MyFiles</string>
+		<string>snippet, show, repeat, switch, protocol, enum, struct, class, return</string>
+		<string>literal, show, array, boolean, color, dictionary, image, string, integer, nil</string>
+		<string>identifier, show, public, super, init, override,  !, !=, (, (), (image:), (sound:), (x:y:), ), *, +, +=, -, -=, -&gt;, ., /, :, &lt;, =, &gt;, Color, Double, Graphic, Image, Instrument, Int, Kind, SonicMusic, Point, spriteA, spriteB, Point(x:y:), Scene, SonicSound, _:, _:at:, _:blend:, after:, alpha, append(_:), backgroundColor, backgroundImage, bassGuitar, bassSynth, black, blue, brown, by:duration:, cave, clear, crystalSynth, cyan, darkGray, duration:, electricGuitar, fadeIn(after:), fadeOut(after:), glow(), gray, green, image, image:, in:, isGridVisible, lab, lightGray, magenta, orange, period:count:, pi, piano, place, place(_:at:), playInstrument(_:note:volume:), playMusic(_:volume:), playSound(_:volume:), position, pulsate(period:count:), purple, random(in:), red, rotation, scale, scale(by:duration:), scale(to:duration:), scene, setOnTouchHandler, setTintColor(_:blend:), sevenSynth, shake(duration:), size, sound:, sqrt(), to:duration:, turtle, underwater, warmBells, white, x, x:y:, y, yellow, {, }, ahh, backUp, beat, beat2, beat3, birds, birds1, bloops, clomp, comingTo, droplet2, droplet3, dumDeDum, handDrums, jungle, layer, lightsUp, oneTwoThree, ringing, shaker, sharps, shimmer2, shipwreck, silverware, sonar5, steelDrums, stickDrop, thinking, thinking2, tide, tide2, tinkTink, vocals, warble, ratchet, zip, A1, A2, A3, A4, A5, AS1, AS2, AS3, AS4, AS5, B1, B2, B3, B4, B5,  C1, C2, C3, C4, C5, CS1, CS2, CS3, CS4, CS5, D1, D2, D3, D4, D5, DS1, DS2, DS3, DS4, DS5, E1, E2, E3, E4, E5, F1, F2, F3, F4, F5, FS1, FS2, FS3, FS4, FS5, G1, G2, G3, G4, G5, GS1, GS2, GS3, GS4, GS5</string>
+	</array>
+</dict>
+</plist>

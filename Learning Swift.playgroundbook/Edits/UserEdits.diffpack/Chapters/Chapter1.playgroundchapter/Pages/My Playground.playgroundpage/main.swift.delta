@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Printing Values
+print("My name is Harry");
+
+// Declaring Variables
+var name = "James Bond";
+var age : Int = 20;
+// Constants
+let PI: Double = 3.124;
+
+// Casting
+var noOfSides = 30;
+var note = "The shape has " + String(noOfSides) + " sides."
+print(note);
+let area : Double = 70.45;
+let approx_area: Int = Int(area);
+print(approx_area);
+
+// Template Strings
+var apples = 3;
+var oranges = 10;
+var fruit_summary = "You have \(apples) Apples and \(oranges) Oranges. All together you have \(apples + oranges) fruits." 
+print(fruit_summary);
+
+// Multiline Stings
+var long_text = """
+My name is Harry,
+I'm a Software Engineer from Nigeria.
+"""
+print(long_text);
+
+// Arrays
+var shopping_list = ["Egg", "Milk", "Apple Juice", "Cosmetice"];
+shopping_list[2] = "Orange Juice";
+print(shopping_list);
+
+// Dictionaries
+var occupations = [
+    "Malcolm": "Backer",
+    "Vera": "Developer",
+    "Dami": "UI/UX designer"
+];
+
+var people: [String : Int] = [:];
+
+print(occupations);
+
+// Nil values
+var os: String? = nil;
+print("Welcome to \(os ?? "On") Operating System");
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1056}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

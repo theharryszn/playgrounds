@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>class Shape {
+    var noOfSides = 0
+    var name = "";
+    var description : String? = nil
+    init(name: String){
+        self.name = name
+    }
+    func showDescription(){
+        print(description ?? "This shape has no description")
+    }
+    deinit {
+        print("Deallocated")
+    }
+}
+
+var shape = Shape(name: "Circle")
+shape.description = "Some wierd shape"
+shape.showDescription()
+
+class Box : Shape {
+    override init() {
+        super.init(name: "Box")
+        noOfSides = 20
+    }
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 496}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
